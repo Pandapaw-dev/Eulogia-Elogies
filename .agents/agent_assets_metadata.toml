@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "kOhELKJDFMDSyBD5rteA7"
+uri = "file://artifacts/eulogia/public/images/hero.png"
+type = "image"
+title = "dramatic architectural hero image"
+
+[[generated]]
+id = "3otkFBQxsl_taNt5_YM5U"
+uri = "file://artifacts/eulogia/public/images/project-1.png"
+type = "image"
+title = "striking building night"
+
+[[generated]]
+id = "yIR3MDA8BEoFd0QDfkxcQ"
+uri = "file://artifacts/eulogia/public/images/project-2.png"
+type = "image"
+title = "urban planning aerial"
+
+[[generated]]
+id = "afJHgyrj-amne2TNZcIRI"
+uri = "file://artifacts/eulogia/public/images/project-3.png"
+type = "image"
+title = "luxury residential exterior"
+
+[[generated]]
+id = "maPkukHwFG_GMMEPNzGsd"
+uri = "file://artifacts/eulogia/public/images/project-4.png"
+type = "image"
+title = "modern glass office"
