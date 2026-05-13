@@ -5,28 +5,28 @@ outputs = []
 id = "kOhELKJDFMDSyBD5rteA7"
 uri = "file://artifacts/eulogia/public/images/hero.png"
 type = "image"
-title = "dramatic architectural hero image"
+title = "generated_image"
 
 [[generated]]
 id = "3otkFBQxsl_taNt5_YM5U"
 uri = "file://artifacts/eulogia/public/images/project-1.png"
 type = "image"
-title = "striking building night"
+title = "generated_image"
 
 [[generated]]
 id = "yIR3MDA8BEoFd0QDfkxcQ"
 uri = "file://artifacts/eulogia/public/images/project-2.png"
 type = "image"
-title = "urban planning aerial"
+title = "generated_image"
 
 [[generated]]
 id = "afJHgyrj-amne2TNZcIRI"
 uri = "file://artifacts/eulogia/public/images/project-3.png"
 type = "image"
-title = "luxury residential exterior"
+title = "generated_image"
 
 [[generated]]
 id = "maPkukHwFG_GMMEPNzGsd"
 uri = "file://artifacts/eulogia/public/images/project-4.png"
 type = "image"
-title = "modern glass office"
+title = "generated_image"

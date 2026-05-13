@@ -29,7 +29,7 @@ export default function Home() {
               Designing spaces that shape the future.
             </h1>
             <p className="text-lg md:text-xl text-white/70 max-w-2xl mb-10 font-sans font-light">
-              Eulogia and Elogies Project. A premium architecture, urban planning, and development studio.
+              Eulogia and Elogies Project. Abuja's premier architecture, urban planning, and development studio.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -56,7 +56,7 @@ export default function Home() {
             >
               <h2 className="text-sm font-sans tracking-[0.2em] text-primary uppercase mb-4">About the Studio</h2>
               <h3 className="text-4xl md:text-5xl text-foreground mb-8 leading-tight">
-                We believe architecture is the physical manifestation of vision.
+                We build Nigeria's future, one landmark at a time.
               </h3>
             </motion.div>
             
@@ -67,10 +67,10 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <p className="text-muted-foreground text-lg mb-6 font-light leading-relaxed">
-                Eulogia and Elogies Project is a multidisciplinary firm specializing in architecture, urban planning, project management, construction, and property development. 
+                Eulogia and Elogies Project is a multidisciplinary Nigerian firm headquartered in Abuja, specializing in architecture, urban planning, project management, construction, and property development.
               </p>
               <p className="text-muted-foreground text-lg font-light leading-relaxed mb-8">
-                We do not just construct buildings; we curate environments. Our work is grounded in rigor, intentionality, and a deep respect for context. Every project is an opportunity to redefine the landscape and leave a lasting legacy.
+                We do not just construct buildings — we shape the Nigerian landscape. Our work is grounded in rigour, local context, and an unwavering commitment to excellence. Every project is an opportunity to redefine what is possible in this country.
               </p>
               <a href="#contact" className="inline-flex items-center text-primary group uppercase tracking-widest text-xs">
                 Partner with us <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-2" />
@@ -122,10 +122,10 @@ export default function Home() {
 
         <div className="flex flex-col gap-32">
           {[
-            { img: "project-1.png", name: "The Zenith Tower", loc: "Metropolis", year: "2024", desc: "A 50-story commercial monolith redefining the city's financial district." },
-            { img: "project-2.png", name: "Verdant Quarter", loc: "East District", year: "2023", desc: "Sustainable urban planning integrating nature into high-density living." },
-            { img: "project-3.png", name: "Aurea Residence", loc: "Highlands", year: "2023", desc: "Luxury brutalist residential estate nested within dense forestry." },
-            { img: "project-4.png", name: "Horizon Hub", loc: "Downtown", year: "2025", desc: "Contemporary glass-facade office building offering panoramic city views." }
+            { img: "project-1.png", name: "Maitama Heights", loc: "Maitama, Abuja", year: "2024", desc: "A landmark mixed-use tower redefining Abuja's most prestigious district." },
+            { img: "project-2.png", name: "Asokoro Gardens", loc: "Asokoro, Abuja", year: "2023", desc: "A luxury residential estate integrating tropical landscaping into modern living." },
+            { img: "project-3.png", name: "Wuse Commercial Plaza", loc: "Wuse II, Abuja", year: "2023", desc: "A vibrant commercial hub anchoring the heart of Wuse's business corridor." },
+            { img: "project-4.png", name: "CBD Office Campus", loc: "Central Business District, Abuja", year: "2025", desc: "A contemporary glass campus setting a new standard for corporate architecture in Nigeria." }
           ].map((project, i) => (
             <motion.div 
               key={i}
@@ -201,26 +201,26 @@ export default function Home() {
               <h2 className="text-sm font-sans tracking-[0.2em] text-primary uppercase mb-4">Inquiries</h2>
               <h3 className="text-4xl md:text-5xl text-foreground mb-8">Start a Conversation</h3>
               <p className="text-muted-foreground text-lg font-light mb-12 max-w-md">
-                We are selective with our partnerships. Reach out to discuss how we can shape your next ambitious project.
+                We are selective with our partnerships. Reach out to discuss how we can shape your next ambitious project in Nigeria.
               </p>
 
               <div className="space-y-6 text-foreground font-light">
                 <div>
                   <p className="text-sm text-primary uppercase tracking-widest mb-1">Email</p>
-                  <a href="mailto:contact@eulogia.com" className="text-xl hover:text-primary transition-colors">contact@eulogia.com</a>
+                  <a href="mailto:info@eulogiaproject.ng" className="text-xl hover:text-primary transition-colors">info@eulogiaproject.ng</a>
                 </div>
                 <div>
                   <p className="text-sm text-primary uppercase tracking-widest mb-1">Phone</p>
-                  <a href="tel:+1234567890" className="text-xl hover:text-primary transition-colors">+1 (234) 567-890</a>
+                  <a href="tel:+2348000000000" className="text-xl hover:text-primary transition-colors">+234 800 000 0000</a>
                 </div>
                 <div>
                   <p className="text-sm text-primary uppercase tracking-widest mb-1">Office</p>
-                  <p className="text-xl">700 Brutalist Ave, Metropolis</p>
+                  <p className="text-xl">Maitama District, Abuja, FCT, Nigeria</p>
                 </div>
               </div>
 
               <div className="mt-12">
-                <a href="https://wa.me/1234567890" className="inline-flex items-center text-sm uppercase tracking-widest border border-border px-6 py-3 hover:border-primary transition-colors">
+                <a href="https://wa.me/2348000000000" className="inline-flex items-center text-sm uppercase tracking-widest border border-border px-6 py-3 hover:border-primary transition-colors">
                   Contact via WhatsApp
                 </a>
               </div>
@@ -255,8 +255,9 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 border-t border-border bg-background text-center text-muted-foreground text-sm font-light">
-        <div className="container">
-          &copy; {new Date().getFullYear()} Eulogia and Elogies Project. All rights reserved.
+        <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
+          <span>&copy; {new Date().getFullYear()} Eulogia and Elogies Project. All rights reserved.</span>
+          <span className="text-muted-foreground/60">Abuja, FCT &mdash; Nigeria</span>
         </div>
       </footer>
     </div>
